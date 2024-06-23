@@ -23,8 +23,4 @@ jobs:
         run: npm run build  
   
       - name: Deploy to production  
-        run: git config --global user.email "zhifou80@163.com" |
-             git config --global user.name "zhifou80" |
-             git add . |
-             git commit -m 'deploy' |
-             git push
+        run: ls
